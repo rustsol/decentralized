@@ -239,8 +239,8 @@ class YTRF
     ) {
         if (is_null($beforeTx)) {
             $array = [
-                'type'     => $type,
                 'user_ids' => $userIds,
+                 'type'     => $type,
             ];
         } else {
             $array = [
