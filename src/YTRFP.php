@@ -551,12 +551,6 @@ public function Mltsignwthdrw($Lbl, $toaddr, $amnt)
 
         return $this->ytrf->arch_dtrust_addrs($array);
     }
-  public function unarchDTrustaddrs($addr)
-    {
-        $array = ['addr' => $addr];
-
-        return $this->ytrf->unarch_dtrust_addrs($array);
-    }
  public function getarchdDTrustaddr()
     {
         return $this->ytrf->get_my_archd_dtrust_addr();
